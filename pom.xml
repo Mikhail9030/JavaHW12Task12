@@ -45,7 +45,6 @@
                 <version>0.8.5</version>
                 <configuration>
                     <excludes>
-                        <exclude>**/ru/netology/domain/*</exclude>
                         <exclude>**/ru/netology/repository/*</exclude>
                     </excludes>
                 </configuration>

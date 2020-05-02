@@ -49,8 +49,8 @@ class ProductManagerTest {
 
     @Test
     void searchByNameBookOneFoundTest() {
-        Product[] actual=manager.searchBy("НОЧЬ");
-        Product[] expected=new Product[]{book2};
+        Product[] actual=manager.searchBy("ДЕНЬ");
+        Product[] expected=new Product[]{book1};
 
         assertArrayEquals(expected, actual);
     }
